@@ -3,9 +3,10 @@ body {
     padding: 0;
 }
 
-.top-nav {
-background-color: rebeccapurple; /*temporary*/
+.hero-section {
+    background-color: #292936;
 }
+
 
 ul {
     margin: 0;
