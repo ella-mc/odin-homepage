@@ -1,21 +1,92 @@
+/* Global styles */
+html {
+    box-sizing: border-box;
+  } 
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
 body {
     margin: 0;
-    padding: 0;
-}
-
-.hero-section {
+    padding: 0 20px; /* 20px for smaller screens*/
+    font-family: sans-serif;
     background-color: #292936;
-}
-
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif; 
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB
+    color: inherit;
 }
 
+/* text stylings */
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0; 
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16;
+}
+
+/* Hero section */
+.hero-section {
+    color: #F9FAF8;
+    padding: 8px 0px 98px;
+    max-width: 1040px;
+    width: 100%;
+}
+
+/* Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 68px;
+}
+
+.page-links {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero content */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+}
+
+.hero-text-and-button {
+    flex: 1;
+    min-width: 300px;
+    max-width: 469px;
+}
+
+.hero-content img {
+    width: 469px; /* or whatever the original width is */
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    background-color: #76359C ;
+    border-radius: 32px;
+    padding: 8px 24px;
+    font-family: inherit;
+    color: inherit;
+    font-size: 18px;
+    border: none;
+}
