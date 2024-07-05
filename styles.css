@@ -105,7 +105,6 @@ p {
 }
 
 
-
 button {
     background-color: #76359C ;
     border-radius: 32px;
@@ -126,8 +125,8 @@ button {
 }
 
 .services-section {
-    max-width: 1024px;
-    margin: 64px 12px;
+    max-width: 900px;
+    margin: 64px 24px;
     width: 100%;
 }
 
@@ -159,4 +158,32 @@ button {
 
 .services-section h3 {
     font-weight: 700;
+}
+
+/* Section 3: */
+
+.container-3 {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #292936;   
+    width: 100%;
+    justify-content: center;
+}
+
+.customer-quote-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;   
+    gap: 24px;
+    margin: 80px 24px 80px 24px;
+}
+
+.customer-quote-section h2 {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.customer-quote-section h3 {
+    text-align: right;
 }
