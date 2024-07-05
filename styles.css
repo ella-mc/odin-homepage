@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #ffffff;
+    background-color: #292936;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,7 +246,8 @@ button.secondary {
     display: flex;  
     width: 100%;
     justify-content: center;
-    color: white
+    color: white;
+    background-color: white;
 
 }
 
@@ -258,8 +259,7 @@ button.secondary {
     width: 100%;
     background-color: #76359C;
     border-radius: 8px;
-    padding: 24px 100px;
-    
+    padding: 24px 100px;   
 }
 
 .text-container p {
@@ -267,4 +267,17 @@ button.secondary {
     color: white;
 }
 
+/* Section 5: footer */
+
+.container-5 {
+    background-color: #292936;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    margin: 16px;
+    color: #ffffff;
+}
 
