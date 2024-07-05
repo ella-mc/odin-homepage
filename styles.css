@@ -25,27 +25,89 @@ a {
 
 /* text stylings */
 
-h1 {
+h1.bold {
     font-size: 48px;
     font-weight: 900;
     margin: 0 0 16px 0; 
 }
 
-h2 {
+h1.reg {
+    font-size: 48px;
+    font-weight: 400px;
+    margin: 0 0 16px 0; 
+}
+
+h1.light {
+        font-size: 48px;
+        font-weight: 300px;
+        margin: 0 0 16px 0; 
+}
+
+h2.bold {
     font-size: 36px;
     font-weight: 900;
     margin: 0;
 }
 
-h3 {
+h2.reg {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2.light {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+h3.bold {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3.reg {
     font-size: 18px;
     font-weight: 400;
     margin: 0;
 }
 
+h3.light {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
 p {
     margin-block-start: 0;
     margin-block-end: 0;
+    font-family: inherit;
+    color: #292936;
+    font-weight: 300;
+}
+
+button {
+    background-color: #76359C ;
+    border-radius: 32px;
+    padding: 8px 24px;
+    font-family: inherit;
+    color: inherit;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button.secondary {
+    border: 1px solid white; 
+    border-radius: 32px;
+    background-color: transparent;
+    padding: 8px 24px;
+    font-family: inherit;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 /* Section 1: Hero */
@@ -104,16 +166,6 @@ p {
     margin-bottom: 16px;
 }
 
-
-button {
-    background-color: #76359C ;
-    border-radius: 32px;
-    padding: 8px 24px;
-    font-family: inherit;
-    color: inherit;
-    font-size: 18px;
-    border: none;
-}
 
 /* Section 2: Services */
 .container-2 {
@@ -187,3 +239,32 @@ button {
 .customer-quote-section h3 {
     text-align: right;
 }
+
+/* Section 4: sign up cta */
+
+.container-4 {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    color: white
+
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 64px 24px;
+    width: 100%;
+    background-color: #76359C;
+    border-radius: 8px;
+    padding: 24px 100px;
+    
+}
+
+.text-container p {
+    margin-top: 8px;
+    color: white;
+}
+
+
